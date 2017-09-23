@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1506137925 source:c:\users\alex\documents\data structs\datasctructs\main.cpp
+	<iostream>
+	"linkedList.h"
+
+1506115750 source:c:\users\alex\documents\data structs\datasctructs\src\timer.cpp
+	"timer.h"
+
+1506115887 c:\users\alex\documents\data structs\datasctructs\include\timer.h
+	<chrono>
+	<iostream>
+
+1506139271 source:c:\users\alex\documents\data structs\datasctructs\src\linkedlist.cpp
+	"linkedList.h"
+
+1506137925 c:\users\alex\documents\data structs\datasctructs\include\linkedlist.h
+	"node.h"
+	<iostream>
+
+1506118343 c:\users\alex\documents\data structs\datasctructs\include\node.h
+
+1506118343 source:c:\users\alex\documents\data structs\datasctructs\src\node.cpp
+	"node.h"
+
