@@ -162,15 +162,16 @@ it is so bad I can't find an actual name for it. Ladies
 and gentlemen, I present to you: Harvey Sort.
 */
 
-void linkedList::harveySort() //It works just never touch this function again
+void linkedList::harveySort()
 {
-    head = new node(0, head);
+    head = new node(0, head); //Dummy head. Otherwise element 0 will never be looked at.
     node* temp = head;
 
     while(temp -> next -> next != 0)
     {
         if(temp -> next -> data > temp -> next -> next -> data)
         {
+            //Basically, if element n > n+1, swap their positions and start at the beginning
             node* nodeToMove = temp -> next -> next;
             temp -> next -> next = temp -> next -> next -> next;
             nodeToMove -> next = temp -> next;
@@ -184,7 +185,7 @@ void linkedList::harveySort() //It works just never touch this function again
         }
     }
 
-    head = head -> next;
+    head = head -> next; //delete dummy head.
 
 }
 
