@@ -15,10 +15,12 @@ void timer::stop()
     finishTime = std::chrono::high_resolution_clock::now();
 }
 
-double timer::print()
+std::chrono::duration<double> timer::print()
 {
     std::chrono::duration<double> elapsed = finishTime - startTime;
-    std::cout << "Elapsed time: " << elapsed.count() << " s" << std::endl;
+
+    //std::cout << elapsed.count() << std::endl;
+    return elapsed;
 }
 
 timer::~timer()

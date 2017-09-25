@@ -10,7 +10,7 @@ class timer
         timer();
         void start();
         void stop();
-        double print();
+        std::chrono::duration<double> print();
         virtual ~timer();
 
     protected:

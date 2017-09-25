@@ -108,7 +108,6 @@ void linkedList::searchFor(int value)
     {
         if(temp -> data == value)
         {
-            std::cout << i << std::endl;
             found = true;
             location = i;
             i = length();

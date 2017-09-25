@@ -1,21 +1,17 @@
 #include <iostream>
-#include "linkedList.h"
+#include "tester.h"
 #include "timer.h"
-#include "dynamicArray.h"
 
 int main(){
 
-    dynamicArray a = dynamicArray();
-
-    a.insertAtEnd(2);
-    a.insertAtEnd(6);
-    a.insertAtEnd(3);
-    a.insertAtEnd(1);
-    a.insertAtEnd(4);
-
-
-    a.sorter();
-    a.print();
+    tester t = tester();
+    t.test(10, 1);
+    t.test(100, 1);
+    t.test(1000, 1);
+    t.test(10000, 1);
+    t.test(100000, 1);
+    t.test(1000000, 1);
+    t.test(10000000, 1);
 
 	return 0;
 }

@@ -1,0 +1,53 @@
+# depslib dependency file v1.0
+1506311696 source:h:\documents\github\datastructs\main.cpp
+	<iostream>
+	"tester.h"
+	"timer.h"
+
+1506206515 h:\documents\github\datastructs\include\linkedlist.h
+	"node.h"
+	<iostream>
+
+1506206515 h:\documents\github\datastructs\include\node.h
+
+1506308861 h:\documents\github\datastructs\include\timer.h
+	<chrono>
+	<iostream>
+
+1506215200 h:\documents\github\datastructs\include\dynamicarray.h
+	<iostream>
+
+1506233256 source:h:\documents\github\datastructs\src\dynamicarray.cpp
+	"dynamicArray.h"
+
+1506311419 source:h:\documents\github\datastructs\src\linkedlist.cpp
+	"linkedList.h"
+
+1506206515 source:h:\documents\github\datastructs\src\node.cpp
+	"node.h"
+
+1506310979 source:h:\documents\github\datastructs\src\timer.cpp
+	"timer.h"
+
+1506308564 source:h:\documents\github\datastructs\src\numgen.cpp
+	"numGen.h"
+
+1506307672 h:\documents\github\datastructs\include\numgen.h
+	"dynamicArray.h"
+	"linkedList.h"
+	<random>
+	<vector>
+	<iostream>
+	<ctime>
+	<cstdlib>
+
+1506309451 h:\documents\github\datastructs\include\tester.h
+	"timer.h"
+	"numGen.h"
+	"dynamicArray.h"
+	"linkedList.h"
+	"iostream"
+
+1506311729 source:h:\documents\github\datastructs\src\tester.cpp
+	"tester.h"
+
