@@ -41,10 +41,10 @@ void tester::test(int inputSize, int numberOfTests)
     std::cout << "Dynamic Array: " << results.dynamicArray.count() << std::endl;
     std::cout << "Linked List: " << results.linkedList.count() << '\n' << std::endl;
 
-    std::cout << "Sorting: " << std::endl;
-    results = sorter(inputSize);
-    std::cout << "Dynamic Array: " << results.dynamicArray.count() << std::endl;
-    std::cout << "Linked List: " << results.linkedList.count() << '\n' << std::endl;
+    //std::cout << "Sorting: " << std::endl;
+    //results = sorter(inputSize);
+    //std::cout << "Dynamic Array: " << results.dynamicArray.count() << std::endl;
+    //std::cout << "Linked List: " << results.linkedList.count() << '\n' << std::endl;
 
     std::cout << "Duplication: " << std::endl;
     results = duplicate(inputSize);
@@ -58,8 +58,7 @@ timeValues tester::insertAtEnd(int inputSize)
     dynamicArray array;
     linkedList list;
     numGen numberGen = numGen(0, 100, inputSize);
-    numberGen.populate(array);
-    numberGen.populate(list);
+    numberGen.populate(array, list);
 
     time.start();
     array.insertAtEnd(0);
@@ -80,8 +79,7 @@ timeValues tester::insertAtFront(int inputSize)
     dynamicArray array;
     linkedList list;
     numGen numberGen = numGen(0, 100, inputSize);
-    numberGen.populate(array);
-    numberGen.populate(list);
+    numberGen.populate(array, list);
 
     time.start();
     array.insertAtFront(0);
@@ -102,8 +100,7 @@ timeValues tester::insertAfter(int inputSize)
     dynamicArray array;
     linkedList list;
     numGen numberGen = numGen(0, 100, inputSize);
-    numberGen.populate(array);
-    numberGen.populate(list);
+    numberGen.populate(array, list);
 
     time.start();
     array.insertAfter(0, inputSize/2);
@@ -124,8 +121,7 @@ timeValues tester::flip(int inputSize)
     dynamicArray array;
     linkedList list;
     numGen numberGen = numGen(0, 100, inputSize);
-    numberGen.populate(array);
-    numberGen.populate(list);
+    numberGen.populate(array, list);
 
     time.start();
     array.flip();
@@ -146,8 +142,7 @@ timeValues tester::searchFor(int inputSize)
     dynamicArray array;
     linkedList list;
     numGen numberGen = numGen(0, 100, inputSize);
-    numberGen.populate(array);
-    numberGen.populate(list);
+    numberGen.populate(array, list);
 
     time.start();
     array.searchFor(50);
@@ -168,8 +163,7 @@ timeValues tester::removeValue(int inputSize)
     dynamicArray array;
     linkedList list;
     numGen numberGen = numGen(0, 100, inputSize);
-    numberGen.populate(array);
-    numberGen.populate(list);
+    numberGen.populate(array, list);
 
     time.start();
     array.removeValue(50);
@@ -190,8 +184,7 @@ timeValues tester::sorter(int inputSize)
     dynamicArray array;
     linkedList list;
     numGen numberGen = numGen(0, 100, inputSize);
-    numberGen.populate(array);
-    numberGen.populate(list);
+    numberGen.populate(array, list);
 
     time.start();
     array.sorter();
@@ -212,8 +205,7 @@ timeValues tester::duplicate(int inputSize)
     dynamicArray array;
     linkedList list;
     numGen numberGen = numGen(0, 100, inputSize);
-    numberGen.populate(array);
-    numberGen.populate(list);
+    numberGen.populate(array, list);
 
     time.start();
     array.duplicate();

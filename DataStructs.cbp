@@ -36,11 +36,15 @@
 		<Unit filename="include/dynamicArray.h" />
 		<Unit filename="include/linkedList.h" />
 		<Unit filename="include/node.h" />
+		<Unit filename="include/numGen.h" />
+		<Unit filename="include/tester.h" />
 		<Unit filename="include/timer.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/dynamicArray.cpp" />
 		<Unit filename="src/linkedList.cpp" />
 		<Unit filename="src/node.cpp" />
+		<Unit filename="src/numGen.cpp" />
+		<Unit filename="src/tester.cpp" />
 		<Unit filename="src/timer.cpp" />
 		<Extensions>
 			<code_completion />

@@ -51,3 +51,107 @@
 1506311729 source:h:\documents\github\datastructs\src\tester.cpp
 	"tester.h"
 
+1506312580 source:c:\users\alex\documents\data structs\datasctructs\main.cpp
+	<iostream>
+	"tester.h"
+	"timer.h"
+
+1506312580 c:\users\alex\documents\data structs\datasctructs\include\tester.h
+	"timer.h"
+	"numGen.h"
+	"dynamicArray.h"
+	"linkedList.h"
+	"iostream"
+
+1506312580 c:\users\alex\documents\data structs\datasctructs\include\timer.h
+	<chrono>
+	<iostream>
+
+1506312580 c:\users\alex\documents\data structs\datasctructs\include\numgen.h
+	"dynamicArray.h"
+	"linkedList.h"
+	<random>
+	<vector>
+	<iostream>
+	<ctime>
+	<cstdlib>
+
+1506312580 c:\users\alex\documents\data structs\datasctructs\include\dynamicarray.h
+	<iostream>
+
+1506137925 c:\users\alex\documents\data structs\datasctructs\include\linkedlist.h
+	"node.h"
+	<iostream>
+
+1506118343 c:\users\alex\documents\data structs\datasctructs\include\node.h
+
+1506312580 source:c:\users\alex\documents\data structs\datasctructs\src\dynamicarray.cpp
+	"dynamicArray.h"
+
+1506312580 source:c:\users\alex\documents\data structs\datasctructs\src\linkedlist.cpp
+	"linkedList.h"
+
+1506118343 source:c:\users\alex\documents\data structs\datasctructs\src\node.cpp
+	"node.h"
+
+1506312580 source:c:\users\alex\documents\data structs\datasctructs\src\timer.cpp
+	"timer.h"
+
+1506312580 source:c:\users\alex\documents\data structs\datasctructs\src\numgen.cpp
+	"numGen.h"
+
+1506314570 source:c:\users\alex\documents\data structs\datasctructs\src\tester.cpp
+	"tester.h"
+
+1506312580 source:c:\users\alex\documents\data structs\datastructs\main.cpp
+	<iostream>
+	"tester.h"
+	"timer.h"
+
+1506312580 c:\users\alex\documents\data structs\datastructs\include\tester.h
+	"timer.h"
+	"numGen.h"
+	"dynamicArray.h"
+	"linkedList.h"
+	"iostream"
+
+1506312580 c:\users\alex\documents\data structs\datastructs\include\timer.h
+	<chrono>
+	<iostream>
+
+1506357049 c:\users\alex\documents\data structs\datastructs\include\numgen.h
+	"dynamicArray.h"
+	"linkedList.h"
+	<random>
+	<vector>
+	<iostream>
+	<ctime>
+	<cstdlib>
+
+1506312580 c:\users\alex\documents\data structs\datastructs\include\dynamicarray.h
+	<iostream>
+
+1506137925 c:\users\alex\documents\data structs\datastructs\include\linkedlist.h
+	"node.h"
+	<iostream>
+
+1506118343 c:\users\alex\documents\data structs\datastructs\include\node.h
+
+1506312580 source:c:\users\alex\documents\data structs\datastructs\src\dynamicarray.cpp
+	"dynamicArray.h"
+
+1506312580 source:c:\users\alex\documents\data structs\datastructs\src\linkedlist.cpp
+	"linkedList.h"
+
+1506118343 source:c:\users\alex\documents\data structs\datastructs\src\node.cpp
+	"node.h"
+
+1506312580 source:c:\users\alex\documents\data structs\datastructs\src\numgen.cpp
+	"numGen.h"
+
+1506314570 source:c:\users\alex\documents\data structs\datastructs\src\tester.cpp
+	"tester.h"
+
+1506312580 source:c:\users\alex\documents\data structs\datastructs\src\timer.cpp
+	"timer.h"
+

@@ -26,6 +26,15 @@ void numGen::populate(linkedList &list)
     }
 }
 
+void numGen::populate(dynamicArray &array, linkedList &list)
+{
+    for(int i = 0; i < numberList.size(); i++)
+    {
+        array.insertAtEnd(numberList.at(i));
+        list.insertAtEnd(numberList.at(i));
+    }
+}
+
 numGen::~numGen()
 {
 

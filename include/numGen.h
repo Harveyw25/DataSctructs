@@ -15,6 +15,7 @@ class numGen
         numGen(int, int, int);
         void populate(dynamicArray&);
         void populate(linkedList&);
+        void populate(dynamicArray&, linkedList&);
         virtual ~numGen();
 
     protected:
